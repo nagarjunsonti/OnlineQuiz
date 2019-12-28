@@ -1,0 +1,199 @@
+.App {
+  /*text-align: center;*/
+}
+.App .MuiAppBar-colorPrimary{
+  background-color: #715728f5;
+}
+.disableLink{
+  pointer-events: none;
+  color: #ccc;
+}
+.alert-danger{
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.alert{
+  padding: 15px;  
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.tableToolbarIconDiv{
+  display:flex;
+  flex-direction:row;
+  padding-right:5px;
+}
+.MuiTableHead-root{
+  background-color:#675e4f;
+}
+
+
+.sideBarTitleDiv{
+  text-transform: capitalize;
+  width:60%;
+}
+.sidebarHeaderDiv .MuiToolbar-root{
+  display: flex;
+    flex-direction: row;
+}
+
+.sidebarHeaderDiv .closeButtonDiv{
+  width: 40%;
+    text-align: right;
+}
+.sidebarHeaderDiv .MuiIconButton-label{
+  display: unset;
+}
+.sidebarTitle{
+  background-color: #675e4f;    
+  padding-left: 10px;
+}
+.sidebarTitleDescription{
+  padding:10px 15px 15px 15px;
+}
+.countClass{
+  font-weight: 600;
+  padding:5px;
+  margin-right:5px;
+  background-color: #e4e4d3;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
+}
+.testButtonDiv{
+  text-align:center;
+  padding-bottom:12px;
+}
+.donutChartDive{
+  margin-bottom: 10px;
+}
+.searchTextField{
+  margin-right:8px !important; 
+}
+.resultsDiv{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-bottom:20px;
+}
+.resultTextField{
+  padding-right:30px;
+}
+.notAttempeted{
+      opacity: 0.8;
+}
+.correct{
+  color:#067332;
+}
+.inCorrect{
+  color:#ff0000;
+}
+.resultTextField .MuiInputBase-input{
+    font-weight: 400;
+    color: #8a8686;
+
+}
+.sidebarContainer{
+   -webkit-box-shadow: 13px -2px 17px -9px rgba(208, 204, 204, 0.75);
+  -moz-box-shadow: 13px -2px 17px -9px rgba(208, 204, 204, 0.75);
+  box-shadow: 13px -2px 17px -9px rgba(208, 204, 204, 0.75);
+}
+.resultsContainer{
+  height:500px;
+  margin:0;
+  overflow-y: scroll;
+ -webkit-box-shadow: -13px -2px 17px -9px rgba(208, 204, 204, 0.75);
+-moz-box-shadow: -13px -2px 17px -9px rgba(208, 204, 204, 0.75);
+box-shadow: -13px -2px 17px -9px rgba(208, 204, 204, 0.75);
+background-color: #fff;
+padding:15px;
+}
+.homeContainerDiv{
+  -webkit-box-shadow:   -2px 2px 5px 0px rgba(208, 204, 204, 0.75);
+-moz-box-shadow:   -2px 2px 5px 0px rgba(208, 204, 204, 0.75);
+box-shadow:   -2px 2px 5px 0px rgba(208, 204, 204, 0.75);
+}
+.legendsDiv{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.testLegends{
+  padding:2px 30px 0 2px;
+}
+.resultsContainerDiv .donutChartDive{
+  margin-top:27px;
+}
+.sidebarTitle h6{
+  font-weight: 500;
+  color:#f5f5f5;
+}
+.MuiContainer-maxWidthXs{
+  -webkit-box-shadow: -1px -1px 5px 3px #ca9e4f;
+-moz-box-shadow: -1px -1px 5px 3px #ca9e4f;
+box-shadow: -1px -1px 5px 3px #ca9e4f;
+}
+.navHeader{
+  display:flex;
+}
+.userProfile{
+  padding-top:22px;
+  text-transform: capitalize;
+}
+.MuiTableSortLabel-root, .MuiTableCell-root, legend span:first-child {
+  text-transform: capitalize;
+}
+.addButtonDiv{
+  text-align: right;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.addiConTitle{
+  padding-top: 16px;
+    padding-right: 10px;
+}
+.AddTextFields{
+  display:flex;
+}
+.submitButton{
+  height:55px;
+}
+.testContainerDiv{
+    padding-top: 21px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.MuiTableCell-head span{
+  color:#f5f5f5;
+}
+.MuiFab-primary{
+      background-color: #1e2971;
+}
+.testContainerDiv button{
+
+  margin-left:15px;
+}
+.testContainerDiv .Mui-disabled{
+  margin-right:10px;
+}
+.testPageContainer{
+  -webkit-box-shadow: 3px 6px 10px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 6px 10px -1px rgba(0,0,0,0.75);
+  box-shadow: 3px 6px 10px -1px rgba(0,0,0,0.75);
+  height: 100%;
+    min-height: 330px;
+    margin-top: 5%;
+    padding: 20px;
+    width:100%;
+}
+.mainContainerDiv{
+  padding-top:20px;
+}
+.MuiContainer-maxWidthXs .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline, .homeContainerDiv .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+    border-color: rgb(183, 122, 9) !important;
+}
